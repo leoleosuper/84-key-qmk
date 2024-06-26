@@ -1,0 +1,14 @@
+#define WS2812_BYTE_ORDER WS2812_BYTE_ORDER_GRB
+#define WS2812_DI_PIN GP20
+#define WS2812_LED_COUNT 86
+#define RGBLIGHT_SLEEP true
+#define RGBLIGHT_DEFAULT_VAL 10
+#define WS2812_TIMING 1250
+#define WS2812_T1H 600
+#define WS2812_T0H 300
+#define WS2812_TRST_US 80
+#define ENCODERS_PAD_A { GP21 }
+#define ENCODERS_PAD_B { GP22 }
+//#define NUM_DIP_SWITCHES 1
+#define NUM_DIP_STATES 2
+#include "leoleosuper.h"
