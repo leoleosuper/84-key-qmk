@@ -16,8 +16,6 @@ along with this program.  If not, see <http://www.gnu.org/licenses/>.
 */
 
 #include QMK_KEYBOARD_H
-#define NUM_DIP_SWITCHES 1
-#define NUM_DIP_STATES 2
 #include "analog.h"
 #include "config.h"
 
